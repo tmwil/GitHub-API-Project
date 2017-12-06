@@ -2,7 +2,7 @@
 A small PHP/MySQL project that retrieves and stores the top starred PHP repositories from git.
 
 ### Assignment
-> ####Popular PHP Repositories on GitHub
+> #### Popular PHP Repositories on GitHub
 >  1. Use the GitHub API to retrieve the most starred public PHP projects. Store the list of repositories in a MySQL table. The table must contain the repository ID, name, URL, created date, last push date, description, and number of stars. This process should be able to be run repeatedly and update the table each time.
 > 
 >  2. Using the data in the table created in step 1, create an interface that displays a list of the GitHub repositories and allows the user to click through to view details on each one. Be sure to include all of the fields in step 1 – displayed in either the list or detailed view.
