@@ -18,7 +18,8 @@ A small PHP/MySQL project that retrieves and stores the top starred PHP reposito
     CSS
     JavaScript
     Google Fonts
-    www.ajaxload.info - to generate loading gif
+    ajaxload.info - to generate loading gif
+    markdownlivepreview.com - help writing this README
 
 #### Required Environment:
 
