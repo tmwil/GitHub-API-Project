@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    background-color: #343434;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: solid #ffe400;
+    border-width: 5px 0 0;
+    clear: both;
+    height: 0;
+    margin: 1.25rem 0 1.1875rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Droid Serif", "Times New Roman", Georgia, serif;
+}
+
+a {
+    color: #e00181;
+    -webkit-transition: color 200ms linear;
+    -moz-transition: color 200ms linear;
+    -o-transition: color 200ms linear;
+    transition: color 200ms linear;
+}
+
+a:active, a:hover {
+    color: #ff6aa9;
+}
+
+/* Loading Indicator */
+#loading {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("../images/ajax-loader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+body.loading-git {
+    overflow: hidden;
+}
+
+body.loading-git #loading {
+    display: block;
+}
+
+/* Template Styles */
+#site-title {
+    color: #3cdcd1;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+    line-height: 1;
+}
+
+#site-container {
+    width: 645px;
+    max-width: 100%;
+    margin: 0 auto 70px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+#main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#main-nav li a {
+
+}
+
+.faux-button {
+    display: inline-block;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+a.button {
+    display: inline-block;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    -webkit-transition: background-color 200ms linear, color 200ms linear;
+    -moz-transition: background-color 200ms linear, color 200ms linear;
+    -o-transition: background-color 200ms linear, color 200ms linear;
+    transition: background-color 200ms linear, color 200ms linear;
+}
+
+a.button:hover {
+    background-color: #e00181;
+    color: #ffffff;
+}
+
+#content-wrapper {
+    padding: 0 16px;
+}
+
+/* List Page Styles */
+.list-error {
+    text-align: center;
+}
+
+.list-pages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.list-pages li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#git-list-ol li {
+    padding: 6px 8px;
+}
+
+#git-list-ol li:nth-child(odd) {
+    background-color: #fafafa;
+}
